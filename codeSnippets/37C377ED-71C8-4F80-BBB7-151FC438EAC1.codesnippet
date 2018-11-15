@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>tableview_init</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>UITableView * &lt;#tablview#&gt; = [[UITableView alloc] initWithFrame:CGRectMake(&lt;#x#&gt;, &lt;#y#&gt;, &lt;#width#&gt;, &lt;#height#&gt;) style:UITableViewStylePlain];
+    &lt;#tablview#&gt;.backgroundColor = [UIColor whiteColor];
+&lt;#tablview#&gt;.tableHeaderView = [[UIView alloc] initWithFrame:CGRectMake(&lt;#x#&gt;, &lt;#y#&gt;, &lt;#width#&gt;, &lt;#height#&gt;)];
+    &lt;#tablview#&gt;.tableFooterView = [[UIView alloc] initWithFrame:CGRectZero];
+[&lt;#tablview#&gt; registerNib:[UINib nibWithNibName:&lt;#nibname#&gt; bundle:nil] forCellReuseIdentifier:&lt;#identifier#&gt;];
+    &lt;#tablview#&gt;.delegate = self;
+    &lt;#tablview#&gt;.dataSource = self;
+    &lt;#tablview#&gt;.separatorStyle = UITableViewCellSeparatorStyleNone;</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>37C377ED-71C8-4F80-BBB7-151FC438EAC1</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Generic</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>tableview_init</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

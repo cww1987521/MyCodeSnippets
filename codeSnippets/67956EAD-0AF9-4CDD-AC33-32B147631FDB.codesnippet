@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>button_init</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>UIButton *customBtn = [UIButton buttonWithType:UIButtonTypeCustom];
+customBtn.frame = CGRectMake(&lt;#CGFloat x#&gt;, &lt;#CGFloat y#&gt;, &lt;#CGFloat width#&gt;, &lt;#CGFloat height#&gt;);
+[customBtn setTitle:&lt;#(nullable NSString *)#&gt; forState:&lt;#(UIControlState)#&gt;];
+[customBtn setTitleColor:&lt;#(nullable UIColor *)#&gt; forState:&lt;#(UIControlState)#&gt;];
+[customBtn setImage:&lt;#(nullable UIImage *)#&gt; forState:&lt;#(UIControlState)#&gt;];
+[customBtn setBackgroundImage:&lt;#(nullable UIImage *)#&gt; forState:&lt;#(UIControlState)#&gt;];
+[customBtn addTarget:&lt;#(nullable id)#&gt; action:&lt;#(nonnull SEL)#&gt; forControlEvents:&lt;#(UIControlEvents)#&gt;];</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>67956EAD-0AF9-4CDD-AC33-32B147631FDB</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Generic</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>初始化一个button</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>buttoninit</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>
